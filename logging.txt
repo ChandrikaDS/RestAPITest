@@ -1,0 +1,116 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -32.23,
+        "lng": -43.23
+    },
+    "accuracy": 50,
+    "name": "Chandrika",
+    "address": "Beograd",
+    "phone_number": "8972573285",
+    "website": "https://rahulshettyacademy.com",
+    "language": "<language",
+    "types": [
+        "shoepark",
+        "playpark"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Tue, 02 Feb 2021 22:30:09 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "88aeb72dd7e25c15f924f23bad18b39a",
+    "scope": "APP",
+    "reference": "4ac0a4d879b12fec8353cfbcd0a538f84ac0a4d879b12fec8353cfbcd0a538f8",
+    "id": "4ac0a4d879b12fec8353cfbcd0a538f8"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=88aeb72dd7e25c15f924f23bad18b39a
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=88aeb72dd7e25c15f924f23bad18b39a
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 02 Feb 2021 22:30:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 234
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-32.23",
+        "longitude": "-43.23"
+    },
+    "accuracy": "50",
+    "name": "Chandrika",
+    "phone_number": "8972573285",
+    "address": "Beograd",
+    "types": "shoepark,playpark",
+    "website": "https://rahulshettyacademy.com",
+    "language": "<language"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=88aeb72dd7e25c15f924f23bad18b39a
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=88aeb72dd7e25c15f924f23bad18b39a
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "88aeb72dd7e25c15f924f23bad18b39a"
+}
+HTTP/1.1 200 OK
+Date: Tue, 02 Feb 2021 22:30:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
